@@ -29,7 +29,7 @@ The script models a **heat pump cycle** consisting of:
 
 The model is divided into three main parts:
 
-### 1 Design Condition
+### 1. Design Condition
 Simulates the **optimal operation point** using predefined input parameters:  
 - Heat source: 40 → 10 °C, 1000 kW  
 - Heat sink: 40 → 90 °C, 1012 kW  
@@ -43,7 +43,7 @@ Key outputs:
 
 ---
 
-### 2️ Off-Design Conditions  
+### 2️. Off-Design Conditions  
 Explores performance when system parameters deviate from the design point:
 - Varying **heat source temperature** (e.g., -5 °C shift)
 - Varying **thermal load** (part-load operation)
@@ -52,7 +52,7 @@ Plots are generated to show how COP and power consumption change with these para
 
 ---
 
-### 3️ Dataset-Driven Simulation  
+### 3️. Dataset-Driven Simulation  
 Reads a time-series dataset (`HP_case_data.xlsx`) containing real or simulated source/sink conditions.  
 For each timestep, the model:
 - Updates boundary conditions
